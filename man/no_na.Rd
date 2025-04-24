@@ -16,6 +16,6 @@ A data frame with all rows containing any \code{NA} values removed.
 This function removes any rows in a data frame that contain \code{NA} values.
 }
 \examples{
-df <- data.frame(a = c(1, NA, 3), b = c("x", "y", NA))
+df <- data.frame(a = c(1, NA, 3, 4), b = c("x", "y", NA, "z"))
 no_na(df)
 }
