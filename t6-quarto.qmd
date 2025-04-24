@@ -4,7 +4,9 @@ title: "Tutorial 6: Refactoring R Code"
 
 # Introduction
 
-In this tutorial, you will refactor the code into separate scripts corresponding to each section. The dataset we will use comes from the `palmerpenguins` package, which contains measurements of penguins from three species.
+In this tutorial, you will refactor the code into separate scripts corresponding
+to each section. The dataset we will use comes from the `palmerpenguins` package,
+which contains measurements of penguins from three species.
 
 ## Load Libraries and Data
 
@@ -17,7 +19,8 @@ head(data)
 
 # Methods
 
-In this section, we perform exploratory data analysis (EDA) and prepare the data for modeling.
+In this section, we perform exploratory data analysis (EDA) and prepare the data
+for modeling.
 
 ![figure](output/plot.png)
 
