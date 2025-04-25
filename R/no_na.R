@@ -7,6 +7,7 @@
 #' @return A data frame with all rows containing any `NA` values removed.
 #' 
 #' @import dplyr 
+#' @importFrom tidyr drop_na
 #' 
 #' @export
 #'

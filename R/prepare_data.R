@@ -6,6 +6,9 @@
 #' @param data A data frame containing penguin measurements, such as from the `palmerpenguins` package.
 #'
 #' @return A data frame with selected numeric columns and a factor `species` column.
+#' 
+#' @import dplyr 
+#' 
 #' @export
 #'
 #' @examples
