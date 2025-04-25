@@ -4,6 +4,9 @@
 # practiceTutorial6
 
 <!-- badges: start -->
+
+[![Codecov test
+coverage](https://codecov.io/gh/luojessica/practice_tutorial_6/graph/badge.svg)](https://app.codecov.io/gh/luojessica/practice_tutorial_6)
 <!-- badges: end -->
 
 The goal of practiceTutorial6 is to …
