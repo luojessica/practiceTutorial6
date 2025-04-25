@@ -1,10 +1,9 @@
-library(tidyverse)
+source("R/no_na.R")
+library(readr)
 library(palmerpenguins)
-library(tidymodels)
 
 data <- penguins
 
-# Initial cleaning: Remove missing values
-data <- data %>% drop_na()
+data <- no_na(data)
 
 write_csv(data, "data/penguins.csv")

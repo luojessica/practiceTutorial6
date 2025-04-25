@@ -1,15 +1,15 @@
 library(tidyverse)
 library(tidymodels)
+source("R/split_data.R")
 
-data <- read_rds("data/penguins_clean.csv")
+data <- read_rds("data/penguins_clean.rds")
 
 # Split data
-set.seed(123)
-data_split <- initial_split(data, strata = species)
-train_data <- training(data_split)
-test_data <- testing(data_split)
+splits <- split_data(data)  # Use your function here!
+train_data <- splits$train
+test_data <- splits$test
 
-write_rds(test_data, "data/penguins_test.csv")
+write_rds(test_data, "data/penguins_test.rds")
 
 # Define model
 penguin_model <- nearest_neighbor(mode = "classification", neighbors = 5) %>%
